@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html lang="ja">
-	<head>
-	    <meta charset="UTF-8">
-	    <title>Quiz</title>
-	</head>
+<head>
+	<meta charset="UTF-8">
+	<title>豆知識クイズ</title>
+</head>
+<body>
+	<p>Q. 実はペンギンが住んでいないのはどこ？</p>
+
+	<form>
+		<input type="radio" name="answer" value="1"> 南極<br>
+		<input type="radio" name="answer" value="2"> オーストラリア<br>
+		<input type="radio" name="answer" value="3"> ガラパゴス諸島<br>
+		<input type="radio" name="answer" value="4"> 北極<br><br>
+		<button type="button" onclick="checkAnswer()">答える</button>
+	</form>
 	<body>
 		<script src="Quiz.js"></script>
 	</body>
